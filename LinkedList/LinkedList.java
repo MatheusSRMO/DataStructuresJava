@@ -2,8 +2,8 @@ package DataStructures.LinkedList;
 
 public class LinkedList<E> {
 
-    private Node<E> head;
-    private int size;
+    public Node<E> head;
+    public int size;
 
     public LinkedList() {
         this.head = null;
