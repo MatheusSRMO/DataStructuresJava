@@ -105,6 +105,27 @@ public class DoublyLinkedList<E> {
         return removedNode.getData();
     }
 
+    // Complexity: O(1)
+    public E getFront() {
+        if (this.head == null) {
+            throw new NullPointerException();
+        }
+        return this.head.getData();
+    }
+
+    // Complexity: O(1)
+    public E getBack() {
+        if (this.head == null) {
+            throw new NullPointerException();
+        }
+        return this.rear.getData();
+    }
+
+    // Complexity: O(1)
+    public Boolean isEmpty() {
+        return this.head == null;
+    }
+
     // Complexity: O(n)
     public void printList() {
         System.out.print("[");
