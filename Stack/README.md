@@ -1,6 +1,6 @@
 # Stack (Pilha) em Java
 
-Este repositório contém a implementação de uma pilha (stack) em Java, utilizando a estrutura de lista duplamente encadeada da classe `DoublyLinkedList`.
+Este repositório contém a implementação de uma pilha (stack) em Java, utilizando a estrutura de lista encadeada da classe `LinkedList`.
 
 ## Pilha (Stack)
 

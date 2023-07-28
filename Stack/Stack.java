@@ -1,11 +1,11 @@
 package DataStructures.Stack;
-import DataStructures.DoublyLinkedList.DoublyLinkedList;
+import DataStructures.LinkedList.LinkedList;
 
 public class Stack<E> {
-    private DoublyLinkedList<E> stack;
+    private LinkedList<E> stack;
 
     public Stack() {
-        this.stack = new DoublyLinkedList<>();
+        this.stack = new LinkedList<>();
     }
 
     // Complexity: O(1)
